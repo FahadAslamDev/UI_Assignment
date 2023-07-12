@@ -1,0 +1,251 @@
+    :root {
+        --blue: #2B63D9;
+    }
+
+    body {
+        font-family: 'Inter';
+    }
+
+    .foot {
+        background-color: #151B28;
+    }
+
+    .nav-height {
+        min-height: 10vh
+    }
+   
+    .head-text {
+        font-size: 4.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: -0.0325rem;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .nav-height {
+            min-height: 5vh
+        }
+
+        .head-text {
+            font-size: 2.8rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 5rem;
+            letter-spacing: -0.0325rem;
+        }
+    }
+
+    .head-p-text {
+
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: -0.00625rem;
+        color: #B1CCFB
+
+    }
+
+    .menu-height {
+        min-height: 90vh;
+        width:100%
+    }
+
+    @media only screen and (min-width: 991px) {
+        .menu-height {
+            min-height: 90vh
+            
+        }
+        .img-min-height{
+            min-height:75vh
+        }
+    }
+
+    @media only screen and (max-width: 990px) {
+        .menu-height {
+            min-height: 85vh;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .menu-height {
+            min-height: 50vh;
+        }
+    }
+
+    .section {
+        min-height: 85vh;
+    }
+
+    .brand {
+        margin-left: 12%;
+        margin-right: 2%;
+    }
+
+
+    .section-two {
+        min-height: 100vh;
+    }
+
+    .card-head {
+        font-size: 1.5rem;
+        font-style: bold;
+        font-weight: 600;
+        line-height: 1.875rem;
+        letter-spacing: -0.01375rem;
+    }
+
+    .card-body-manual {
+        color: #5F6D7E;
+        /* Text L/Regular */
+        font-family: 'Inter';
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: -0.00625rem;
+    }
+
+    .img-label {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .section-three {
+        min-height: 100vh;
+    }
+
+    .section-three h5 {
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .section-three p {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    .p-space {
+        line-height: 1.5;
+    }
+
+    .text-style {
+        font-weight: 700;
+        font-size: 2rem
+    }
+
+    .head {
+        background: var(--blue)
+    }
+
+    .blue-var {
+        background: var(--blue)
+    }
+
+    .section-head-img {
+        background: #437EF7;
+    }
+
+    .full-height {
+        height: 100%;
+    }
+
+    .round {
+        width: 3.5rem;
+        height: 3.5rem;
+        display: inline-block;
+        /* Adjust display property as needed */
+    }
+
+    .blog-img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .section-third {
+        min-height: 100vh;
+        background: #151B28;
+    }
+
+    .section-fourth {
+        min-height: 60vh;
+        padding: 4rem 0rem;
+    }
+
+    #blog p {
+        font-size: 0.9375rem;
+    }
+
+    #blog img {
+        width: 2.4rem;
+        padding-right: 0px;
+    }
+
+    .sf-div-2 {
+        border-radius: 0.625rem;
+        background-color: #F8F9FB;
+    }
+
+    .flex-gap {
+        gap: 2rem;
+    }
+
+    .section-fifth {
+        min-height: 100vh;
+    }
+
+    .section-fifth .card-gap {
+        gap: 2rem;
+    }
+
+    .section-sixth {
+        min-height: 40vh;
+    }
+
+    .section-seventh {
+        min-height: 60vh;
+        background: #FAFBFC
+    }
+
+    .section-seventh p {
+        color: #437EF7;
+    }
+
+    .submit-input {
+        height: 2.875rem;
+        padding: 1.7rem 1.5rem;
+        border-radius: 0.375rem 0rem 0rem 0.375rem;
+        color: white;
+        background: #2C3444;
+        border: 1px solid #2C3444;
+    }
+
+    .submit-button {
+        height: 2.875rem;
+        padding: 1.7rem 1.5rem;
+        border-radius: 0rem 0.375rem 0.375rem 0rem;
+    }
+
+    .footer {
+        min-height: 65vh;
+        background: #151B28;
+    }
+
+    .footer-font {
+        font-size: 1.3em;
+    }
+
+    .check {
+        display: flex;
+        width: 1.25rem;
+        height: 1.25rem;
+        padding: 0.28125rem 0.25rem 0.21875rem 0.25rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.25rem;
+        background: #437EF7;
+    }
