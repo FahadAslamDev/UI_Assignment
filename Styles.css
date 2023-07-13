@@ -13,9 +13,9 @@
     .nav-height {
         min-height: 10vh
     }
-   
+
     .head-text {
-        font-size: 4.2rem;
+        font-size: 4rem;
         font-style: normal;
         font-weight: 700;
         line-height: 5rem;
@@ -36,6 +36,52 @@
         }
     }
 
+    @media only screen and (min-width: 991px) and (max-width:1200px) {
+        .card-head {
+            background: red;
+            font-size: 1rem;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 1.5rem;
+            letter-spacing: -0.01375rem;
+        }
+
+        .card-body-manual {
+            color: #5F6D7E;
+            /* Text L/Regular */
+            font-family: 'Inter';
+            font-size: 0.7rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.2rem;
+            letter-spacing: -0.00625rem;
+        }
+    }
+
+    @media only screen and (min-width:1201px) {
+        .blog-img {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+        .card-head {
+            font-size: 1.5rem;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 1.875rem;
+            letter-spacing: -0.01375rem;
+        }
+
+        .card-body-manual {
+            color: #5F6D7E;
+            font-family: 'Inter';
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5rem;
+            letter-spacing: -0.00625rem;
+        }
+    }
+
     .head-p-text {
 
         font-size: 1.5rem;
@@ -44,21 +90,20 @@
         line-height: 2rem;
         letter-spacing: -0.00625rem;
         color: #B1CCFB
-
     }
 
     .menu-height {
         min-height: 90vh;
-        width:100%
+        width: 100%
     }
 
     @media only screen and (min-width: 991px) {
         .menu-height {
             min-height: 90vh
-            
         }
-        .img-min-height{
-            min-height:75vh
+
+        .img-min-height {
+            min-height: 75vh
         }
     }
 
@@ -69,6 +114,10 @@
     }
 
     @media only screen and (max-width: 767px) {
+        .blog-img {
+            width: 2.7rem;
+            height: 2.7rem;
+        }
         .menu-height {
             min-height: 50vh;
         }
@@ -81,25 +130,6 @@
     .brand {
         margin-left: 12%;
         margin-right: 2%;
-    }
-
-    .card-head {
-        font-size: 1.5rem;
-        font-style: bold;
-        font-weight: 600;
-        line-height: 1.875rem;
-        letter-spacing: -0.01375rem;
-    }
-
-    .card-body-manual {
-        color: #5F6D7E;
-        /* Text L/Regular */
-        font-family: 'Inter';
-        font-size: 1.1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5rem;
-        letter-spacing: -0.00625rem;
     }
 
     .img-label {
@@ -146,15 +176,10 @@
     }
 
     .round {
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3.5vw;
+        height: 3.5vw;
         display: inline-block;
         /* Adjust display property as needed */
-    }
-
-    .blog-img {
-        width: 3.5rem;
-        height: 3.5rem;
     }
 
     .section-third {
