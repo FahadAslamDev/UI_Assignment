@@ -18,6 +18,7 @@
         .footer-font {
             font-size: 1rem;
         }
+
         .card-head {
             background: red;
             font-size: 1.3rem;
@@ -26,13 +27,16 @@
             line-height: 1.5rem;
             letter-spacing: -0.01375rem;
         }
+
         .blog-img {
             width: 2.7rem;
             height: 2.7rem;
         }
+
         .menu-height {
             min-height: 50vh;
         }
+
         .card-body-manual {
             color: #5F6D7E;
             /* Text L/Regular */
@@ -43,6 +47,7 @@
             line-height: 1.2rem;
             letter-spacing: -0.00625rem;
         }
+
         .nav-height {
             min-height: 5vh
         }
@@ -54,6 +59,7 @@
             line-height: 2.5rem;
             letter-spacing: -0.0325rem;
         }
+
         .head-p-text {
 
             font-size: 1.1rem;
@@ -64,8 +70,8 @@
             color: #B1CCFB
         }
     }
-   
-    @media only screen and (min-width: 767px){
+
+    @media only screen and (min-width: 767px) {
         .head-text {
             font-size: 2.1rem;
             font-style: normal;
@@ -73,6 +79,7 @@
             line-height: 2.5rem;
             letter-spacing: -0.0325rem;
         }
+
         .head-p-text {
 
             font-size: 1.1rem;
@@ -89,6 +96,7 @@
         .footer-font {
             font-size: 1.1rem;
         }
+
         .head-text {
             font-size: 4rem;
             font-style: normal;
@@ -96,10 +104,12 @@
             line-height: 5rem;
             letter-spacing: -0.0325rem;
         }
+
         .menu-height {
             min-height: 100vh;
             width: 100%
         }
+
         .card-head {
             background: red;
             font-size: 1rem;
@@ -122,9 +132,11 @@
     }
 
     @media only screen and (min-width:1201px) {
+        
         .footer-font {
             font-size: 1.3rem;
         }
+
         .head-text {
             font-size: 4rem;
             font-style: normal;
@@ -132,6 +144,7 @@
             line-height: 5rem;
             letter-spacing: -0.0325rem;
         }
+
         .head-p-text {
 
             font-size: 1.5rem;
@@ -141,14 +154,17 @@
             letter-spacing: -0.00625rem;
             color: #B1CCFB
         }
+
         .menu-height {
             min-height: 90vh;
             width: 100%
         }
+
         .blog-img {
             width: 3.5rem;
             height: 3.5rem;
         }
+
         .card-head {
             font-size: 1.5rem;
             font-style: bold;
@@ -180,12 +196,30 @@
         }
     }
 
-    @media only screen and (max-width: 990px) {
+    @media only screen and (min-width:768px) and (max-width: 990px) {
+        .card-head {
+            font-size: 1.5rem;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 1.875rem;
+            letter-spacing: -0.01375rem;
+        }
+
+        .card-body-manual {
+            color: #5F6D7E;
+            font-family: 'Inter';
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5rem;
+            letter-spacing: -0.00625rem;
+        }
         .menu-height {
             min-height: 85vh;
         }
     }
-    .align-self{
+
+    .align-self {
         align-self: stretch;
     }
 
@@ -317,7 +351,7 @@
         background: #151B28;
     }
 
-    
+
 
     .check {
         display: flex;
