@@ -18,8 +18,8 @@
         font-size: 4.2vw;
         font-style: normal;
         font-weight: 700;
-        line-height: 5rem;
-        letter-spacing: -0.0325rem;
+        line-height: 5vw;
+        letter-spacing: -0.0325vw;
     }
 
     @media only screen and (max-width: 767px) {
@@ -28,21 +28,21 @@
         }
 
         .head-text {
-            font-size: 2.8rem;
+            font-size: 2.8vw;
             font-style: normal;
             font-weight: 700;
-            line-height: 5rem;
-            letter-spacing: -0.0325rem;
+            line-height: 5vw;
+            letter-spacing: -0.0325vw;
         }
     }
 
     .head-p-text {
 
-        font-size: 1.5rem;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
-        line-height: 2rem;
-        letter-spacing: -0.00625rem;
+        line-height: 2vw;
+        letter-spacing: -0.00625vw;
         color: #B1CCFB
 
     }
@@ -89,27 +89,27 @@
     }
 
     .card-head {
-        font-size: 1.5rem;
+        font-size: 1.5vw;
         font-style: bold;
         font-weight: 600;
-        line-height: 1.875rem;
-        letter-spacing: -0.01375rem;
+        line-height: 1.875vw;
+        letter-spacing: -0.01375vw;
     }
 
     .card-body-manual {
         color: #5F6D7E;
         /* Text L/Regular */
         font-family: 'Inter';
-        font-size: 1.1rem;
+        font-size: 1.1vw;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.5rem;
-        letter-spacing: -0.00625rem;
+        line-height: 1.5vw;
+        letter-spacing: -0.00625vw;
     }
 
     .img-label {
-        width: 2rem;
-        height: 2rem;
+        width: 2vw;
+        height: 2vw;
     }
 
     .section-three {
@@ -117,16 +117,16 @@
     }
 
     .section-three h5 {
-        font-size: 1.375rem;
+        font-size: 1.375vw;
         font-style: normal;
         font-weight: 600;
     }
 
     .section-three p {
-        font-size: 1rem;
+        font-size: 1vw;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.5rem;
+        line-height: 1.5vw;
     }
 
     .p-space {
@@ -135,7 +135,7 @@
 
     .text-style {
         font-weight: 700;
-        font-size: 2rem
+        font-size: 2vw
     }
 
     .head {
@@ -155,15 +155,15 @@
     }
 
     .round {
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3.5vw;
+        height: 3.5vw;
         display: inline-block;
         /* Adjust display property as needed */
     }
 
     .blog-img {
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3.5vw;
+        height: 3.5vw;
     }
 
     .section-third {
@@ -173,25 +173,25 @@
 
     .section-fourth {
         min-height: 60vh;
-        padding: 4rem 0rem;
+        padding: 4vw 0vw;
     }
 
     #blog p {
-        font-size: 0.9375rem;
+        font-size: 0.9375vw;
     }
 
     #blog img {
-        width: 2.4rem;
+        width: 2.4vw;
         padding-right: 0px;
     }
 
     .sf-div-2 {
-        border-radius: 0.625rem;
+        border-radius: 0.625vw;
         background-color: #F8F9FB;
     }
 
     .flex-gap {
-        gap: 2rem;
+        gap: 2vw;
     }
 
     .section-fifth {
@@ -199,7 +199,7 @@
     }
 
     .section-fifth .card-gap {
-        gap: 2rem;
+        gap: 2vw;
     }
 
     .section-sixth {
@@ -216,18 +216,18 @@
     }
 
     .submit-input {
-        height: 2.875rem;
-        padding: 1.7rem 1.5rem;
-        border-radius: 0.375rem 0rem 0rem 0.375rem;
+        height: 2.875vw;
+        padding: 1.7vw 1.5vw;
+        border-radius: 0.375vw 0vw 0vw 0.375vw;
         color: white;
         background: #2C3444;
         border: 1px solid #2C3444;
     }
 
     .submit-button {
-        height: 2.875rem;
-        padding: 1.7rem 1.5rem;
-        border-radius: 0rem 0.375rem 0.375rem 0rem;
+        height: 2.875vw;
+        padding: 1.7vw 1.5vw;
+        border-radius: 0vw 0.375vw 0.375vw 0vw;
     }
 
     .footer {
@@ -241,11 +241,11 @@
 
     .check {
         display: flex;
-        width: 1.25rem;
-        height: 1.25rem;
-        padding: 0.28125rem 0.25rem 0.21875rem 0.25rem;
+        width: 1.25vw;
+        height: 1.25vw;
+        padding: 0.28125vw 0.25vw 0.21875vw 0.25vw;
         justify-content: center;
         align-items: center;
-        border-radius: 1.25rem;
+        border-radius: 1.25vw;
         background: #437EF7;
     }
