@@ -14,29 +14,86 @@
         min-height: 10vh
     }
 
-    .head-text {
-        font-size: 4rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 5rem;
-        letter-spacing: -0.0325rem;
-    }
-
     @media only screen and (max-width: 767px) {
+        .card-head {
+            background: red;
+            font-size: 1.3rem;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 1.5rem;
+            letter-spacing: -0.01375rem;
+        }
+        .blog-img {
+            width: 2.7rem;
+            height: 2.7rem;
+        }
+        .menu-height {
+            min-height: 50vh;
+        }
+        .card-body-manual {
+            color: #5F6D7E;
+            /* Text L/Regular */
+            font-family: 'Inter';
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.2rem;
+            letter-spacing: -0.00625rem;
+        }
         .nav-height {
             min-height: 5vh
         }
 
         .head-text {
-            font-size: 2.8rem;
+            font-size: 2.1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2.5rem;
+            letter-spacing: -0.0325rem;
+        }
+        .head-p-text {
+
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.8rem;
+            letter-spacing: -0.00625rem;
+            color: #B1CCFB
+        }
+    }
+   
+    @media only screen and (min-width: 767px){
+        .head-text {
+            font-size: 2.1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2.5rem;
+            letter-spacing: -0.0325rem;
+        }
+        .head-p-text {
+
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.8rem;
+            letter-spacing: -0.00625rem;
+            color: #B1CCFB
+        }
+
+    }
+
+    @media only screen and (min-width: 991px) and (max-width:1200px) {
+        .head-text {
+            font-size: 4rem;
             font-style: normal;
             font-weight: 700;
             line-height: 5rem;
             letter-spacing: -0.0325rem;
         }
-    }
-
-    @media only screen and (min-width: 991px) and (max-width:1200px) {
+        .menu-height {
+            min-height: 100vh;
+            width: 100%
+        }
         .card-head {
             background: red;
             font-size: 1rem;
@@ -59,6 +116,26 @@
     }
 
     @media only screen and (min-width:1201px) {
+        .head-text {
+            font-size: 4rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 5rem;
+            letter-spacing: -0.0325rem;
+        }
+        .head-p-text {
+
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2rem;
+            letter-spacing: -0.00625rem;
+            color: #B1CCFB
+        }
+        .menu-height {
+            min-height: 90vh;
+            width: 100%
+        }
         .blog-img {
             width: 3.5rem;
             height: 3.5rem;
@@ -82,20 +159,7 @@
         }
     }
 
-    .head-p-text {
 
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 2rem;
-        letter-spacing: -0.00625rem;
-        color: #B1CCFB
-    }
-
-    .menu-height {
-        min-height: 90vh;
-        width: 100%
-    }
 
     @media only screen and (min-width: 991px) {
         .menu-height {
@@ -112,15 +176,8 @@
             min-height: 85vh;
         }
     }
-
-    @media only screen and (max-width: 767px) {
-        .blog-img {
-            width: 2.7rem;
-            height: 2.7rem;
-        }
-        .menu-height {
-            min-height: 50vh;
-        }
+    .align-self{
+        align-self: stretch;
     }
 
     .section {
