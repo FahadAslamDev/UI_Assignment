@@ -222,7 +222,7 @@
     }
 
     .footer {
-        min-height: 65vh;
+        /* min-height: 65vh; */
         background: #151B28;
     }
 
