@@ -15,6 +15,9 @@
     }
 
     @media only screen and (max-width: 767px) {
+        .footer-font {
+            font-size: 1rem;
+        }
         .card-head {
             background: red;
             font-size: 1.3rem;
@@ -83,6 +86,9 @@
     }
 
     @media only screen and (min-width: 991px) and (max-width:1200px) {
+        .footer-font {
+            font-size: 1.1rem;
+        }
         .head-text {
             font-size: 4rem;
             font-style: normal;
@@ -116,6 +122,9 @@
     }
 
     @media only screen and (min-width:1201px) {
+        .footer-font {
+            font-size: 1.3rem;
+        }
         .head-text {
             font-size: 4rem;
             font-style: normal;
@@ -308,9 +317,7 @@
         background: #151B28;
     }
 
-    .footer-font {
-        font-size: 1.3em;
-    }
+    
 
     .check {
         display: flex;
