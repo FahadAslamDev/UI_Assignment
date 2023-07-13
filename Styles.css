@@ -10,11 +10,10 @@
         background-color: #151B28;
     }
 
-    .nav-height {
-        min-height: 10vh
-    }
-
     @media only screen and (max-width: 767px) {
+        .nav-height {
+            min-height: 2vh
+        }
         .footer-font {
             font-size: 1rem;
         }
@@ -28,14 +27,6 @@
             letter-spacing: -0.01375rem;
         }
 
-        .blog-img {
-            width: 2.7rem;
-            height: 2.7rem;
-        }
-
-        .menu-height {
-            min-height: 50vh;
-        }
 
         .card-body-manual {
             color: #5F6D7E;
@@ -46,6 +37,14 @@
             font-weight: 400;
             line-height: 1.2rem;
             letter-spacing: -0.00625rem;
+        }
+        .blog-img {
+            width: 2.7rem;
+            height: 2.7rem;
+        }
+
+        .menu-height {
+            min-height: 50vh;
         }
 
         .nav-height {
@@ -72,6 +71,9 @@
     }
 
     @media only screen and (min-width: 767px) {
+        .nav-height {
+            min-height: 5vh
+        }
         .head-text {
             font-size: 2.1rem;
             font-style: normal;
@@ -93,6 +95,9 @@
     }
 
     @media only screen and (min-width: 991px) and (max-width:1200px) {
+        .nav-height {
+            min-height: 6vh
+        }
         .footer-font {
             font-size: 1.1rem;
         }
@@ -132,6 +137,9 @@
     }
 
     @media only screen and (min-width:1201px) {
+        .nav-height {
+            min-height: 9vh
+        }
         
         .footer-font {
             font-size: 1.3rem;
@@ -194,6 +202,33 @@
         .img-min-height {
             min-height: 75vh
         }
+    }
+    @media only screen and (max-width: 350px) {
+        .footer-font {
+            font-size: 0.8rem;
+        }
+
+        .card-head {
+            background: red;
+            font-size: 1rem;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 1.2rem;
+            letter-spacing: -0.01375rem;
+        }
+
+
+        .card-body-manual {
+            color: #5F6D7E;
+            /* Text L/Regular */
+            font-family: 'Inter';
+            font-size: 0.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1rem;
+            letter-spacing: -0.00625rem;
+        }
+
     }
 
     @media only screen and (min-width:768px) and (max-width: 990px) {
