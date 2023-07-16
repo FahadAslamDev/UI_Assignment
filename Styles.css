@@ -6,10 +6,79 @@
         font-family: 'Inter';
     }
 
+    .wrapper {
+        padding-left: 0 ;
+        padding-right: 0 ;
+        margin-left: 0.25rem ;
+        margin-right: 0.25rem ;
+        margin-top: 0 ;
+        margin-bottom: 0 ;
+        display: flex ;
+        align-items: flex-end ;
+        justify-content: flex-end ;
+      }
+      
+      /* @media (min-width: 768px) {
+      
+      } */
+      
+.inner_Cont{
+    align-self: stretch;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+
+.inner_Cont .btn{
+    padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  background:#437EF7;
+}
+      
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
     .foot {
         background-color: #151B28;
     }
+    .center-align{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .end-align{
+        display:flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .align-self{
+        align-self: stretch;
+    }
 
+    .gap{
+        gap: 4rem;
+    }
+
+    .my-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
     @media only screen and (max-width: 767px) {
         .submit-input {
             height: 1.875rem;
@@ -20,6 +89,9 @@
             border: 1px solid #2C3444;
         }
 
+        .btn-background{
+            background:#437EF7
+        }
         .submit-button {
 
             height: 1.875rem;
@@ -95,6 +167,20 @@
         }
     }
 
+
+    @media (min-width: 576px) {
+        .wrapper {
+          align-items: flex-end ;
+        }
+      }
+      
+      @media (min-width: 992px) {
+        .wrapper {
+          align-items: flex-start ;
+          justify-content: center;
+        }
+      }
+
     @media only screen and (min-width: 768px) {
         .submit-input {
             height: 2.875rem;
@@ -140,6 +226,10 @@
             letter-spacing: -0.00625rem;
             color: #B1CCFB
         }
+        .wrapper {
+            align-items: flex-end ;
+            justify-content: flex-end ;
+          }
 
     }
 
