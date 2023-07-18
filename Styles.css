@@ -7,79 +7,114 @@
     }
 
     .wrapper {
-        padding-left: 0 ;
-        padding-right: 0 ;
-        margin-left: 0.25rem ;
-        margin-right: 0.25rem ;
-        margin-top: 0 ;
-        margin-bottom: 0 ;
-        display: flex ;
-        align-items: flex-end ;
-        justify-content: flex-end ;
-      }
-      
-      /* @media (min-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    /* @media (min-width: 768px) {
       
       } */
-      
-.inner_Cont{
-    align-self: stretch;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  order: 2;
-}
+
+    .inner_Cont {
+        align-self: stretch;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 2;
+    }
 
 
-.inner_Cont .btn{
-    padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-  background:#437EF7;
-}
-      
-.pic{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-}
+    .gap-large {
+        gap: 1.5rem;
+    }
+
+    .gap-small {
+        gap: 0.5rem;
+    }
+
+    .inner_Cont .btn {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        background: #437EF7;
+    }
+
+    .pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
 
     .foot {
         background-color: #151B28;
     }
-    .center-align{
-        display:flex;
+
+    .center-align {
+        display: flex;
         align-items: center;
         justify-content: center;
     }
-    .end-align{
-        display:flex;
+
+    .end-align {
+        display: flex;
         align-items: end;
         justify-content: end;
     }
-    .align-self{
+
+    .align-self {
         align-self: stretch;
     }
 
-    .gap{
+    .gap {
         gap: 4rem;
+    }
+
+
+    .icn {
+        margin-left: -1rem;
     }
 
     .my-container {
         display: flex;
         align-items: center;
         justify-content: center;
-      }
-      
+    }
+
     @media only screen and (max-width: 767px) {
+        .sub-align{
+            display:flex;
+            align-items:center;
+            justify-content: center;
+        }
+        .align-checkboxes {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+        }
+        .align-center-between {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .align-self-center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .submit-input {
             height: 1.875rem;
             padding: 1.3rem 1.5rem;
@@ -87,11 +122,19 @@
             color: white;
             background: #2C3444;
             border: 1px solid #2C3444;
+
         }
 
-        .btn-background{
-            background:#437EF7
+        .align-center-start {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+
+        .btn-background {
+            background: #437EF7
+        }
+
         .submit-button {
 
             height: 1.875rem;
@@ -170,18 +213,32 @@
 
     @media (min-width: 576px) {
         .wrapper {
-          align-items: flex-end ;
+            align-items: flex-end;
         }
-      }
-      
-      @media (min-width: 992px) {
+    }
+
+    @media (min-width: 992px) {
         .wrapper {
-          align-items: flex-start ;
-          justify-content: center;
+            align-items: flex-start;
+            justify-content: center;
         }
-      }
+    }
 
     @media only screen and (min-width: 768px) {
+        .sub-align{
+            display:flex;
+            align-items:start;
+            justify-content: start;
+        }
+        .align-checkboxes  {
+            align-items: center;
+            justify-content: center;
+        }
+        .align-center-between {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
         .submit-input {
             height: 2.875rem;
             padding: 1.7rem 1.5rem;
@@ -189,6 +246,12 @@
             color: white;
             background: #2C3444;
             border: 1px solid #2C3444;
+        }
+
+        .align-center-start {
+            display: flex;
+            align-items: start;
+            justify-content: start;
         }
 
         .submit-button {
@@ -226,10 +289,11 @@
             letter-spacing: -0.00625rem;
             color: #B1CCFB
         }
+
         .wrapper {
-            align-items: flex-end ;
-            justify-content: flex-end ;
-          }
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
 
     }
 
@@ -344,6 +408,12 @@
         .img-min-height {
             min-height: 75vh
         }
+
+        .align-self-center {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+        }
     }
 
     @media only screen and (max-width: 350px) {
@@ -375,6 +445,11 @@
     }
 
     @media only screen and (min-width:768px) and (max-width: 990px) {
+        .align-self-between{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .card-head {
             font-size: 1.5rem;
             font-style: bold;
@@ -516,8 +591,6 @@
         background: #151B28;
     }
 
-
-
     .check {
         display: flex;
         width: 1.25rem;
@@ -528,3 +601,23 @@
         border-radius: 1.25rem;
         background: #437EF7;
     }
+
+    .submit-btn-color {
+        background: #437EF7
+    }
+
+    .align-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-column{
+        display:flex;
+        flex-direction: column;
+    }
+    .align-end{
+        display:flex;
+        align-items:center;
+        justify-content:end;
+    }
+   
