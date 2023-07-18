@@ -624,4 +624,7 @@
         display: flex;
         justify-content: center;
     }
+    .bg-color{
+        background: #FAFBFC;
+    }
    
