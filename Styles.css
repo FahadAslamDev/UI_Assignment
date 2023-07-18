@@ -620,4 +620,8 @@
         align-items:center;
         justify-content:end;
     }
+    .content-center{
+        display: flex;
+        justify-content: center;
+    }
    
